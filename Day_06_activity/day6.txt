@@ -1,0 +1,35 @@
+python fundamentals
+DataStructures - II
+
+tuple:()
+immutable
+ordered
+
+x=(5)=> integer because it sees as number
+x=()=>tuple
+
+nested tuple
+
+slicing
+chained slicing
+
+
+tuple operations:
+1)concatenation(+)
+2)repetation(*)
+3)membership (in,not in)=>return bool values
+
+
+if this possible to make mutable the tuple of values
+accinfo=name,acc_no,pan,balance,credit,debit
+
+
+methods:
+len()
+index(item) =>first occurrence only
+min()
+max()
+sum()
+count()
+del => delete entire tuple
+

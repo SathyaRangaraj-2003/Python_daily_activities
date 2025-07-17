@@ -1,0 +1,120 @@
+1)Print Only the Middle Digit of a 3-digit Number Scenario: Given a 3-digit number x = 426, print only the middle digit. 
+
+#soln 01
+x=426
+y=str(x)
+print(y[1])
+
+#soln 02
+print((x // 10) % 10)
+
+#soln 03
+x=426
+y=str(x)
+print(y[1:2])
+
+2)print a rocket using single print()statement
+o/p : 5-->4-->3-->2-->1-->Liftoff!
+
+
+python fundamentals:  I/O and DataStructures-01
+
+=>How do the program get info from you ..and respond back?
+python I/O - Input => input() and output => output().
+
+print()
+=>multiple items are printed in order separated by comma(,).
+
+custom separators:(sep) =>to change the separators between items.
+print("2025","07","16",sep="-")
+
+custom ending:(end) =>to change the ends.
+print("sathya",end="...")
+print("rangaraj")
+
+
+using f-String:
+input() =>default string
+=>num=input("enter num: ")
+
+slipt()
+=>string.split(separators) =>default white space
+
+
+type casting to integer using map:
+x,y = map(int,input("enter 2 nums: ").split(','))
+
+ASCII :
+A-65 ,a-97,' '- 32,'0'
+
+ord() => ascii number and chr():
+print(ord('A')) => 65
+print(chr(97)) => a 
+
+
+List: ordered,mutable
+2 ways to create list:
+1)[] = square brackets
+2)list()
+
+
+list() constructor:
+*list => unpacking with *
+
+list of strings => join()
+ex:
+words=["geeks","for","geeks"]
+print(" ".join(words))
+
+indexing,slicing
+
+list operations:
+1)concatenation(+)
+2)Repetition(*)
+3)membership operators (in,not in)
+
+
+
+list methods:
+append(item) =>only one
+clear()
+copy()
+count(item)
+extend()
+index(item)
+insert(index,item)
+pop()
+pop(index)
+remove(item)
+reverse()
+sort() =>ascending =>only homogeneous
+sort(reverse=True) =>descending 
+
+build-in(operations)
+len()
+min()
+max()
+sum()
+sorted()
+
+
+del list_name[index]
+
+
+1)to add multiple list
+2)name=["alice","bob"]
+# print(name[name.index("alice")].index('i')) in  num=[123,287,9001]
+3)to remove all occurrence
+4)d/f sort nd sorted
+
+sort:
+=>Used with lists only
+=>Modifies the original list in place.
+
+sorted:
+=>Works with any iterable (lists, tuples, dictionaries, etc.)
+=>Returns a new sorted list
+=>Does not modify the original
+
+
+

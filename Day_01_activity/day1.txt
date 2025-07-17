@@ -1,0 +1,55 @@
+why program?
+why program language?
+python fundamentals.
+
+5 constructor
+1) Variable arthimetic and operation
+2) Sequence
+3) Selection or conditional
+4) Iteration
+5) Functions or repetation
+ 
+problem solving techniques:
+1)Algorithm
+2)Pseudocode
+3)Flowchart
+
+
+
+1)know your age and citizenship. 
+
+2)conform whether u are above and equal to 18 .
+
+3)To apply collect the required documents
+
+4)then apply for voter id 
+
+5)if it ok with all documents and age verfications,then finally u will receive voter id for voting within certain time span.
+
+
+
+number system
+
+decimal => 245 =>2×10^2+4×10^1+5×10^0
+ 	       => 200+40+5
+
+binary  => 1011 => 1×2^3+0×2^2+1×2^1+1×2^0
+ 		=> 8+0+2+1=11
+
+octal => 745 => 7×8^2+4×8^1+5×8^0
+ 	     => 448+32+5=485
+
+hexadecimal (0 to 9 and A to F (A=10, B=11, ..., F=15))
+	=> 3F => 3×16^1+15×16^0
+ 	      => 48+15=63
+
+compiler => slow debugging vs interpreter => debugging easy
+
+
+
+realtime purpose of compiler, interpreter 
+
+
+what is faster python interpreter vs jupyter note
+==> If you're focused on speed and performance, the Python interpreter is faster.
+==> If you're focused on interactivity, visualization, and experimentation, Jupyter Notebook is more convenient.

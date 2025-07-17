@@ -1,0 +1,83 @@
+datatypes.(5) and purposes
+
+1)integer => whole number 2^31
+2)float => number with decimal points ex also 1e6 is decimal
+
+a/b => always float
+a//b => always int 
+int + float => float
+
+3)type conversion(implicit => 2+3.0,explicit => int())
+4)strings => sequence of characters => immutable(cannot be changed)
+	==>indexing (0-n)
+	==>slicing[start:end:skip]
+	==>built-in functions => int,float,print,bool,str,len
+	==>concatenation(+)
+	==>formatting =>f""(f-string) ,str.format(),%d,%s method
+	==>standalone functions => upper(),lower(),title(),capitalize().
+	==>search method ==>find()==> to return index position 
+		 ==> (in) is also used instead of find().
+	==>escape characters => \" Double quote
+		     => \\ Backslash
+	             => \t Tab
+		     => \n New line
+
+
+a/b => always float
+a//b => always int 
+int + float => float
+
+qn. v1=5,v2=10 => which is bigger
+1)dictionary is ordered or unordered.=>unordered
+
+2)range support decimal or not.=> support both integer and decimal
+
+3)how can use none => its keywords or datatypes.=>its both 
+
+4)double,long comes under what.
+=> double is float datatype
+=> long is interger datatype
+
+5)1e6 => float or int =>float ,but it can stored in float
+
+6)why aren't all decimal calculation exact in python?
+=>computer store floats using global system =>IEEE 754
+=>Computers store numbers in binary.
+
+
+# Demoprogram_day2
+#declaring variable
+age = 25
+temperature = -10
+year = 2025
+zero = 0
+#arithmetic operations
+print(type(age))  #data type of variable
+print(age+5)  #addition
+print(temperature*2)  #multiplication
+
+
+#declaring variables
+v1=5
+v2=10
+print(v1 + v2) # addition
+print(v1 - v2) #subtraction
+print(v1 * v2) #multiplication
+print(v1 / v2) #division
+print(v1 // v2) #floor division
+print(v1 % v2) #modulo
+print(v1 ** v2) #expo
+
+
+#string to num
+num_str = "42"
+float_str = "3.14"
+age = int(num_str)
+pi = float(float_str)
+#num to str
+num=100
+text=str(num)
+#float to int
+x=int(3.8)
+
+

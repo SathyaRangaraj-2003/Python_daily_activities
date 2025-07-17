@@ -1,0 +1,75 @@
+git fundamentals
+
+=>version control => to tract changes
+=>vcs(version control system) => maintain complete history
+			      => revert to previous versions
+			      => work collaboratively
+			      => identity and resolve conflicts.
+=>types 
+1. local version control
+2. centralized version control system=>subversion,perforce
+3. distributed version control system=>git,mercurial
+
+key concept
+1) repository (repo) => a folder 
+2) commit => a snapshot
+3) branch => a side path
+4) merge => bringing 2 paths(branch) together
+5) conflict => storage issue,in finding name of file/folder.
+6) log=> see history
+
+GitHub is supported system of git(2008)=> store git repository=>remote host(repo)
+
+git (1.0 in 2005) & installation 
+
+=> dvcs(distributed version control system) 
+=> work collaboratively,maintain complete history.
+=>fast,efficient,reliable
+=>best balance  for performance
+=>standard choice - open source,professional development
+
+configuration :
+git config --global user.name "Your Full Name"
+git config --global user.email "your.email@example.com"
+git config --list
+
+--system => all users on this computer
+--local => current project only
+--global => user account only(we move)
+
+
+git init => initialize repository, start tracking of repositorys
+
+git status
+
+(add)
+git add . (staging level)(or)
+git add filename_extension
+
+git commit -m "success"
+ 
+git checkout -b "branch_name"  =new branch
+git checkout master_branch_name = to switch b/w branches
+
+git branch=>to check where are u 
+
+git log
+
+git push origin branch_name
+
+git pull 
+git fetch
+git clone
+
+to merge:
+git checkout master
+git merge "branch_name"
+mergetool =>during conflict
+
+git remote add origin https://
+
+
+medium.com => blog creation 
+
+
+

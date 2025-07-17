@@ -1,0 +1,94 @@
+github desktop
+
+git advanced
+=>CI/CD =>continuous Integration and Delivery/Deployment
+
+
+
+re-align timeline:
+
+git rebase main(branch_name)
+
+two way to combine work in git:
+1) git merge ==> (only latest commited code in newbranch is updated in main branch)
+2) git rebase ==> entire new branch is updated in main branch.
+
+
+reusing a commit :
+
+git cherry-pick 5f3a8d ==>directly move to specific commit
+if error:git cherry-pick --continue
+
+git reset => common reset
+
+git reset --soft HEAD~1 ==> move back by 1 commit.
+git reset --mixed HEAD~1
+git reset --hard HEAD~1 
+
+git revert d8a2e =>create unique commit ,no history change
+
+
+git restore file_name
+
+git clean =>untracted file,folder
+git clean -f(file)
+git clean -fd(file,directory)
+git clean -n(delete)
+
+
+git diff ==>difference b/w files => working directory and staging area
+
+git blame file_name => last modified
+git stash => unfinished work for later
+git stash pop =>resumes the stashed work and remove it from stash.
+
+git tag =>labelling
+
+
+git ignore and git attributes
+
+.gitignore =>  ignore specific files or folders.
+	   => use .gitignore io 
+
+attributes syntax:
+<pattern><attributes> =<value>
+
+
+git CI/CD pipelines:
+
+GitHub Action => ci/cd tool=> .yml file or .yaml file
+
+
+GitHub classroom
+name: demo
+on: push
+ 
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@v3
+ 
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+ 
+    - name: Run a py Script
+      run: python demoactions.py #file_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
