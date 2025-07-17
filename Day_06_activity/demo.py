@@ -57,4 +57,6 @@
 
 
 #bank details
-# acc_info=("sathya",123445,45688282,1000,123456,987654)
+#accinfo=acc_no,name,pan,balance,credit,debit
+acc_info=(100,"sathya","PAN3420",500,"credit","debit")
+print(acc_info)
