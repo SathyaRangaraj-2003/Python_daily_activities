@@ -68,5 +68,6 @@
 # #accinfo=acc_no,name,pan,balance,credit,debit
 acc_info=(100,"sathya","PAN3420",[1000,],input("Enter credit or debit:"))
 
-acc_info[3][0]=((acc_info[4]=='credit' and acc_info[3][0]+int(input("Enter credit amount :")) )or (acc_info[4]=='debit' and acc_info[3][0]-int(input("Enter debit amount :"))))
+acc_info[3][0]=((acc_info[4]=='credit' and acc_info[3][0]+int(input("Enter credit amount :")) ) or (acc_info[4]=='debit' and acc_info[3][0]-int(input("Enter debit amount :"))))
+
 print(acc_info)
