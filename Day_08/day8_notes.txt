@@ -1,0 +1,76 @@
+python fundamentals
+
+DataStructure - III
+
+tuple - recap
+
+Every thing in one object , is consider as class.
+
+l1=[1,2,3]
+t1=(1,2,3)
+one among them takes less memory what?? ==>tuple 
+
+
+namedtuple:=>from collections import namedtuple 
+=>its from packages
+=>immutable 
+namedtuple(typename,[fieldname]) 
+
+student=namedtuple('student',['name,'age','grade','score'])
+student=student("Anita",16,"A",95)
+print(student.grade)
+
+Dictionaries: 
+=>sequence /lookup data
+=>key-value pairs {} =>key is unique
+=>mutable,unordered and ordered
+=>hashable
+
+
+creation :
+=> dict_name={} or
+=>dict_name =dict() => dict method
+
+accessing :
+dict_name[key]
+example:
+players={1:"dhoni",2:"kholi"}
+print(players[2])----->key values printing o/p:Kholi
+
+use get() to avoid errors:
+dict_name.get("email") =>email=>key
+print(my_dict.get("email"))---->o/p:none =>If the key is not found
+dict_name.get("email","not found")--->o/p:not found
+
+ 
+
+dict_name={
+    1:"email",
+    2:"sathya"
+}
+print(dict_name.get(2)) => sathya
+ 
+
+duplicate keys:
+d={
+    1:"ABC",
+    2:"XYZ",
+    1:"MNO"
+}
+print(d)  # override {1:"MNO"}
+
+
+v1=[5]
+v2=[5]
+print(id(v1))
+print(id(v1)) 
+#1951305064640
+#1951305064640
+
+operations:
+1) adding elements
+2) update/modify
+3) delete  
+=>del dict_name[keys]
+=>dict_name.pop(keys)
+
