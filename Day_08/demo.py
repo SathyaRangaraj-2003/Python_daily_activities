@@ -61,15 +61,19 @@
 # a,*b,c=t
 # print(a,b,c)
 
-# #without split how can u assign multiple values to tuple ???
 # t=input("enter the numbers: ")
 # a,*b,c=t.split()
 # print(type(t))
 # print(a,b,c)
 
-# #tuple does not support  split() => error
-# t=tuple(input("enter the numbers: "))
-# a,*b,c=t.split()
+# t=tuple(input("enter the numbers: ").split())
+# a,*b,c=t
+# print(type(t))
+# print(a,b,c)
+
+# #without split how can u assign multiple values to tuple ???
+# t=tuple(input("enter the numbers: ").strip())
+# a,*b,c=t
 # print(type(t))
 # print(a,b,c)
 
