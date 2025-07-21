@@ -1,5 +1,7 @@
 #activity 01
-'''reassign A with C,B with A,C with B without temporary variables and multiple line of code '''
+'''reassign A with C,B with A,C with B 
+without temporary variables and
+ multiple line of code '''
 
 
 #declaring variables

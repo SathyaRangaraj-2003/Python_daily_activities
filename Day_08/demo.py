@@ -31,3 +31,33 @@
 
 
 #advanced tuple
+
+# # assignment 
+# t1=(1,2,3)
+# l=list(t1)
+# print(l)
+
+#unpacking using *  :
+# t=(1,2,3,4,5,6,7,8,9,10)
+# a,*b,c=t
+# print(a,b,c)
+
+#without split how can u assign multiple values to tuple ???
+# t=tuple(input("enter the numbers: "))
+# a,*b,c=t
+# print(type(t))
+# print(a,b,c)
+
+# t=tuple(input("enter the numbers: "))
+# *a,= t  
+# print(len(a))
+# print(type(a))  #list
+# print(a[0])
+
+
+#quiz demo
+# a=(1,2)
+# print(a)
+
+# (a,(b,c))=(1,(2,3))
+# print(c)
