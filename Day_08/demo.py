@@ -168,3 +168,31 @@
 # del d[1]
 # d.pop(2)
 # print(d)
+
+
+# #fact
+# d={
+#     True :'B',
+#     1.0 :'C',
+#     1:'X'
+# }
+# print(d)
+
+# a=[1,2,3]
+# b=a
+# a=a+[4]   # create new list a 
+# print(a)
+# print(b)
+
+# a=[1,2,3]
+# b=a
+# a+=[4] # it modifies the existing list and both a,b points to same reference/address
+# print(a)
+# print(b)
+
+# str="sa@thy1:23 "
+# print(str.title())  # i need to check
+
+
+# str="sathy123 "
+# print(str.isalnum())

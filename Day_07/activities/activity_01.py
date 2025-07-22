@@ -29,5 +29,7 @@ Enter the number: abc
 Kindly enter numeric value: 456
 (Program should use 456)'''
 
+# (walrus operator)(:=) =>short circuit logic   =>(variable := expression)
+
 num = int((v1:=input("Enter the number: ")).isdigit() and v1 or input("Enter numeric value: "))
 print((num % 3 == 0 and "jugs") or num)

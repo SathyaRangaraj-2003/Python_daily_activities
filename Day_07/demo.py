@@ -97,7 +97,9 @@ Kindly enter numeric value: 456
 
 
 
-
+# str="sathy123 "
+# print(str.isalnum())
+# print(str.isalpha())
 
 
 
