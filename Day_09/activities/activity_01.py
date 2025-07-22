@@ -22,4 +22,4 @@ print(dict1)
 
 print(dict1 | dict2)
 
-print({**dict1 , **dict2})
+print({**dict1 , **dict2})  #return new dictionary keyword argument

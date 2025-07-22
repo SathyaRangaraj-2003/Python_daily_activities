@@ -56,10 +56,73 @@
 # print(list(value_view)) #10,30,20
 
 
-#guess o/p
+# #guess o/p
 
-config = {}
-result = config.setdefault('database', {}).setdefault('connections', [])
-result.extend(['mysql', 'postgres'])
-config.setdefault('database', {}) ['port'] = 5432
-print(len(config['database']), len(result))
+# config = {}
+# result = config.setdefault('database', {}).setdefault('connections', [])
+# result.extend(['mysql', 'postgres'])
+# config.setdefault('database', {}) ['port'] = 5432
+# print(len(config['database']), len(result))
+
+
+# # quiz demo
+
+# # pop() and popitem()
+# d={
+#     'a':10,
+#     'b':20
+# }
+# x=d.pop('b',3)
+# print(x)
+
+# z=d.pop('c',3)
+# print(z)
+
+# #popitem()
+# d={
+#     'a':10,
+#     'b':20
+# }
+# d.popitem()
+# print(d)
+
+# d={
+#     'a':10,
+#     'b':20
+# }
+# d.pop('a')
+# print(d['a'])  #=>error
+
+
+# d={
+#     'a':10,
+#     'b':20
+# }
+# d2=d
+# d.clear()
+# print(len(d2))  #o/p =>0 main reference even deleted so an
+
+
+# d={
+#     'a':10,
+#     'b':20
+# }
+# v=list(d.values())
+# v.append(3)
+# print(len(d))
+
+
+# d=((10,20),(30,40,50),(60,70))
+# (a,b) ,(c,*rest), (d,e)=d
+# print(a+c+d,len(rest))
+
+# d=({'count'  : 5},)
+# res=d*2
+# print(res)
+
+base={'user' : {'profile' : {'name' : 'John'}}}
+update_data= {'user' : {'profile' : {'age':25},
+              'setting' : {'theme' :'dark'}}}
+
+base['user'].update(update_data['user'])
+print(base['user']['profile'])  #{'age' :25}
