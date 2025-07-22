@@ -46,11 +46,20 @@
 # }
 # print(len(d.values()))
 
-#values
-d = {
-    'x' : 10,
-    'z' : 30
-}
-value_view=d.values()
-d['y']=20
-print(list(value_view)) #10,30,20
+# #values
+# d = {
+#     'x' : 10,
+#     'z' : 30
+# }
+# value_view=d.values()
+# d['y']=20
+# print(list(value_view)) #10,30,20
+
+
+#guess o/p
+
+config = {}
+result = config.setdefault('database', {}).setdefault('connections', [])
+result.extend(['mysql', 'postgres'])
+config.setdefault('database', {}) ['port'] = 5432
+print(len(config['database']), len(result))

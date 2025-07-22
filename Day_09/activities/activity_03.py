@@ -14,3 +14,7 @@ auth_input=tuple(map(int,input("Enter the two ids: ").split(",")))
 
 #printing matching name eve key is reversed
 print(access_data.get(auth_input) or access_data.get(auth_input[::-1]))
+
+
+input = map(int,input("Enter the two ids: ").split(","))
+print(input)
