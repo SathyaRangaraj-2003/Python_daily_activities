@@ -10,7 +10,7 @@ grades={
 }
 
 #user input
-name=input("Enter the student name : ")
+stud_name=input("Enter the student name : ")
 
 #getting grade from name given by user ,if not print "Student not found".
-print(grades.get(name,"Student not found"))
+print(grades.get(stud_name,"Student not found"))

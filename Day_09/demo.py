@@ -38,9 +38,19 @@
 # print(students["Ravi"]["Science"])
 
 
+# #len()
+# d = {
+#     'x' : 10,
+#     'y' : [1,2],
+#     'z' : 30
+# }
+# print(len(d.values()))
+
+#values
 d = {
     'x' : 10,
-    'y' : [1,2],
     'z' : 30
 }
-print(len(d.values()))
+value_view=d.values()
+d['y']=20
+print(list(value_view)) #10,30,20
