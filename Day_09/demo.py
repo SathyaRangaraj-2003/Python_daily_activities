@@ -20,10 +20,15 @@ d = {
     3 : 'jacfruitk'
 }
 
-user_input=input("Enter the string to get id: ")
+sorted_keys = dict(zip(map(''.join, map(sorted,d)), d))
 
-d2=dict(list(map(sorted,user_input)))
-print(d2)
+print(d.get(sorted_keys.get(''.join(sorted(input("Enter fruit name:")))),
+ "Fruit not found"))
+
+# user_input=input("Enter the string to get id: ")
+
+# d2=dict(list(map(sorted,user_input)))
+# print(d2)
 
 
 
