@@ -14,12 +14,17 @@
 
 
 # #try 01: if the value is scrambled how can u perform in membership operators
-# d = {
-#     'x' : 10,
-#     'y' : 'appel',
-#     'z' : 30
-# }
-# print(map'apple' in d.values())
+d = {
+    1 : 'orgean',
+    2 : 'appel',
+    3 : 'jacfruitk'
+}
+
+user_input=input("Enter the string to get id: ")
+
+d2=dict(list(map(sorted,user_input)))
+print(d2)
+
 
 
 # #list of dictionary is possible
@@ -120,9 +125,9 @@
 # res=d*2
 # print(res)
 
-base={'user' : {'profile' : {'name' : 'John'}}}
-update_data= {'user' : {'profile' : {'age':25},
-              'setting' : {'theme' :'dark'}}}
+# base={'user' : {'profile' : {'name' : 'John'}}}
+# update_data= {'user' : {'profile' : {'age':25},
+#               'setting' : {'theme' :'dark'}}}
 
-base['user'].update(update_data['user'])
-print(base['user']['profile'])  #{'age' :25}
+# base['user'].update(update_data['user'])
+# print(base['user']['profile'])  #{'age' :25}
