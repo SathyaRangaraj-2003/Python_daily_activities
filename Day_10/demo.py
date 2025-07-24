@@ -119,3 +119,35 @@
 # print(a & b)    #0000
 # print(a and b)
 
+# #bitwise opertaors
+# # & = AND => if both true ,then true ,else false =>1+1=1
+# # | = OR => if atleast one is true ,then true else false =>0+0=0
+# # ^ = XOR => if different bits,then 1,else 0 => 1+0=1 ,1+1=0
+# # ~ = Not =>opposite bit for other bit
+# # << = Leftshift
+# # >> = rightshift
+
+
+# # ==>One's and two's complement are methods for representing signed binary numbers
+
+# # ==> One's complement involves inverting all bits (0s become 1s and 1s become 0s).
+
+# # example:
+# # 10 => 1010
+# # 1's=> 0101
+# # ==> Two's complement is calculated by inverting all bits and then adding 1 to the result.
+
+# # example:
+# # 10    => 1010
+
+# # 1's   => 0101
+# # add 1 => 0001   
+# #      ----------
+# # 2's   => 0110 
+# #        ----------
+
+# ex : num = 3
+#    0011
+# +  0001
+# -------
+#    0100
