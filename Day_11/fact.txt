@@ -1,0 +1,21 @@
+
+Meta Unveils Breakthrough Wrist-Control Technology for AR/VR
+
+Meta has introduced a new wristband that uses muscle signals to control AR and VR devices—no need for physical controllers! 
+
+This wearable reads tiny movements in your wrist and fingers using EMG (electromyography) and translates them into digital actions like typing, swiping, or selecting.
+
+Meta Quest Pro (with AR passthrough)
+Meta Quest 3
+Meta Quest 2
+
+
+
+Python is often described as an interpreted language, but it also involves a compilation step = compilation to bytecode
+
+The Just-In-Time (JIT) compiler was officially introduced in Python 3.13, which was released in October 2024
+
+🔹 Now (Python 3.13 and Beyond):
+
+Detects frequently-used code paths (called “hot paths”).
+Skips repeated interpretation such as loops or often-called functions., making execution faster.

@@ -119,6 +119,8 @@
 # print(a & b)    #0000
 # print(a and b)
 
+
+
 # #bitwise opertaors
 # # & = AND => if both true ,then true ,else false =>1+1=1
 # # | = OR => if atleast one is true ,then true else false =>0+0=0
