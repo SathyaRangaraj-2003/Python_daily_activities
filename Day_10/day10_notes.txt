@@ -1,0 +1,57 @@
+data structure V
+
+zip() 
+=> is a built-in Python function that combines multiple iterables (like lists, tuples, etc.) element-wise into pairs (or tuples)
+
+SET:
+
+=>unordered,unique elements
+=>mutable
+=>elements inside set are immutable
+=>hashable=>wont allow changes (int,str,tuple)
+
+create a set:
+1) curly braces:
+2) set() function
+
+
+basic set operations:
+1)adding elemnets:(.add())
+2)update (.update())
+3)remove (.remove()) =>through keyerror if it is not found 
+	 (.discard()) =>does not through keyerror if it is not found 
+	 (.pop())
+	 (.clear())
+
+membership testing => in,not in
+
+set operations:
+1) union ( | ) 
+2) intersection ( & )
+3) difference ( - ) or set1.difference(set2) =>value only in set1
+4) symmetric Difference( ^ ) or set.symmetric_difference(set2)=>value in both set but not common in both.
+
+
+relationship-based operations:
+A={1,2,3}
+B={1,2,3,4,5,6}
+C={1,2}
+
+1) subset checking: 
+  ==>A.issubset(B) => the set A in set B
+  ==>C <= A  => the set C in set A
+
+2)proper subset:
+ ==>(all elements should present )(<)
+
+3)superset checking:
+ B.issuperset(A)
+ (>=)
+
+disjoint set:(no common values)(ans Boolean)(isdisjoint)
+ 
+frozen set:(immutable)(not changeable)
+ 
+regular set:(mutable)
+
+

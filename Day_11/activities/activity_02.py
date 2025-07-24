@@ -9,5 +9,4 @@ setA={'A','B','C'}
 setB={'C','D','E'}
 setC={'C','D','E','F'}
 
-
 print(((setA & setB ) - setC ) | setC - (setA | setB) )

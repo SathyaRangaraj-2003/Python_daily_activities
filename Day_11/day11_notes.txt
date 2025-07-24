@@ -1,0 +1,142 @@
+
+UNIX => UNiplexed Information and Computing System
+=>is an operating system
+
+
+purpose => 
+
+types:(versions) =>they share common simmilarities
+sun solaris
+GNU / Linux
+MacOs X
+
+components of Unix:(3)
+=>kernel
+=>Shell
+=>Programs
+
+User ==> Shell ==> Kernel ==> Hardware
+
+unix kernel => 
+
+unix shell =>
+
+what is shell primarily responsible
+
+=>in unix, either a file or process
+
+process: =>running/executing program
+
+dictionaries are files : 
+
+
+unix commands:
+
+ls => list content of a dictionary
+
+ls -a => see hidden files
+
+ls -l
+
+create a directory : 
+
+mkdir unixstuff
+
+change directory :
+
+cd unixstuff
+
+current directory : cd .
+parent directory : cd .. 
+
+to come out all folders => cd
+
+pwd => print current absolute path.
+
+ps =>
+
+create a file :
+touch <file_name_1><file_name_2>...<file_name_n>
+
+display line of text:
+
+echo[options][string]
+
+using ~ for home directory:
+ls ~
+ls ~/parentfolder
+ls ~/..
+
+absolute path =>start with root
+relative path =>
+
+copying files 
+
+to change within folder:
+cp source_file target_file
+
+move or rename:
+mv source destination 
+to move with folder:
+
+delete a file :
+rm filename
+
+delete a folder (must be empty)
+rmdir dirname
+
+clear 
+
+display file contents:
+cat <file_name> =>not ideal for long files =>it scroll past quickly
+
+less <file_name> =>view file one page at a time
+
+q => to end
+
+more <file_name> => views
+
+
+view beginning of file:
+
+head file_name =>first 10 lines
+
+head -5 file_name =>first 5 lines
+
+view end of file:
+
+tail file_name =>last 10 lines
+
+tail -15 file_name =>last 15 lines
+
+
+searching a files :
+less file_name
+
+searching with grep :
+
+
+awt
+
+./file_name.sh
+
+set topics=> in day 10 notes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
