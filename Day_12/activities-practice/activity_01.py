@@ -17,22 +17,22 @@ case : 35e3
     5E-4   // Represents 5 * 10^-4 = 0.0005
 '''
 
-# practice 1:
+# # practice 1:
 
-#user input
-str=input("Enter the input String :")
+# #user input
+# str=input("Enter the input String :")
 
-#process
+# #process
 
-r1 = str.isdigit() and (int(str)%2==0 and ("Odd") or ("Even"))
+# r1 = str.isdigit() and (int(str)%2==0 and ("Odd") or ("Even"))
 
-r2 = str.count('.')==1 and len(str)-1
+# r2 = str.count('.')==1 and len(str)
 
-r3 = str.isalpha() and  (str == str[::-1] and ("String is palindrome") or ("String is not palindrome") ) 
+# r3 = str.isalpha() and  (str == str[::-1] and ("String is palindrome") or ("String is not palindrome") ) 
 
-#output
-result =( r1 or r2 or r3 or "Not a Valid Type")
-print(result)
+# #output
+# result =( r1 or r2 or r3 or "Not a Valid Type")
+# print(result)
 
 
 
@@ -45,9 +45,11 @@ str=input("Enter the input String :")
 
 r1 = str.isdigit() and (int(str)%2==0 and ("Odd") or ("Even"))
 
-r2 = '.' in str 
+x = '.' in str and str.replace('.','') or str
 
-r3 = str.isalpha() and  (str == str[::-1] and ("String is palindrome") or ("String is not palindrome") ) 
+r2 = x.isdigit() and len(str)-1
+
+r3 = x.isalpha() and  (x == x[::-1] and ("String is palindrome") or ("String is not palindrome") ) 
 
 #output
 result =( r1 or r2 or r3 or "Not a Valid Type")
@@ -55,7 +57,6 @@ print(result)
 
 
 
-#r4 = str.count('.')>=1 and str.replace('.','') and str == str[::-1] and ("String is palindrome") or ("String is not palindrome")
 
 
 
