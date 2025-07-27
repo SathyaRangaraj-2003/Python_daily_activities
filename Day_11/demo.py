@@ -60,3 +60,5 @@
 # }
 # print(ns) #true
 
+t=(5,6,1,2,3)
+print(t.sort())

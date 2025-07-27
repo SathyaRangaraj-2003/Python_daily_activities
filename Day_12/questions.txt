@@ -1,0 +1,50 @@
+#try 01:reverse the dictionary ,
+# the value should be a key and key shoud turn to value
+
+d={
+    (103,209) : "Alice",
+    (104,210) : "Bob",
+    (105,211) : "Charlie",
+    (106,212) : "Diana"
+}
+new_dict=dict(zip(d.values(),d.keys()))
+print(new_dict)
+
+try 02:
+set data to be same all the tym in same order
+
+try 03: print how many names were actually added.
+#if scenario of class have same name with same initial =>2 person how will you add in set 
+
+#try 04: if the value is scrambled how can u perform in membership operators.
+
+#try 05:
+achieve(walrus operator)(:=) =>short circuit logic   =>(variable := expression)
+
+num = int((v1:=input("Enter the number: ")).isdigit() and v1 or input("Enter numeric value: "))
+print((num % 3 == 0 and "jugs") or num)
+
+'''Python Programming Challenge: Smart Input Validation
+ 
+Problem Statement:
+Write a single-line Python program that asks the user for a number. If the user enters a valid numeric string (digits only), use that value. If the user enters anything non-numeric (letters, symbols, etc.), prompt them again with a different message and use the second input.
+ 
+Requirements:
+Must be written in exactly one line of code
+Cannot use if, else, elif statements
+Cannot use and, or, not operators
+Cannot use loops (for, while)
+Cannot use functions or lambda expressions
+Cannot use list comprehensions or dictionaries
+Cannot use exception handling (try/except)
+Should only prompt for the second input when the first input is invalid
+ 
+Expected Behavior:
+Test Case 1:
+Enter the number: 123
+(Program should use 123, no second prompt)
+ 
+Test Case 2:  
+Enter the number: abc
+Kindly enter numeric value: 456
+(Program should use 456)'''
