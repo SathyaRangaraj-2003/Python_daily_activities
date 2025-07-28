@@ -4,55 +4,54 @@
 #without comparison operators
 
 
-'''
-#correct soln:
-#input
-marks ,cutoff= map(int,input("Enter the marks out of 100 : ").split(","))
 
-#process and result
-if(marks - cutoff ):
-	print("Pass")
-'''
+# #correct soln not absolute:
+# #input
+# marks ,cutoff= map(int,input("Enter the marks out of 100 : ").split(","))
 
-'''
+# #process and result
+# if(marks - cutoff ):
+# 	print("Pass")
 
-#soln 1:
+#corrected one
 #input
 marks = int(input("Enter the marks out of 100 : "))
 cutoff = int(input("Enter the cutoff : "))
-
-
-#process and result
-if(marks//cutoff):
-	print("Pass")
-
-
-
-Soln 2:
-#input
-marks = int(input("Enter the marks out of 100 : "))
-cutoff = int(input("Enter the cutoff : "))
-
 #process and result
 diff = marks - cutoff
-if(~diff ):
-	print("Pass")
-
-'''
-
-
-#input
-marks ,cutoff= map(int,input("Enter the marks out of 100 : ").split(","))
-
-#process and result
-if(marks - cutoff or marks is cutoff):
+if(diff + abs(diff))//2 is diff:
 	print("Pass")
 
 
 
+# #soln 1:
+# #input
+# marks = int(input("Enter the marks out of 100 : "))
+# cutoff = int(input("Enter the cutoff : "))
+# #process and result
+# if(marks//cutoff):
+# 	print("Pass")
+
+# # soln 2:
+# #input
+# marks ,cutoff= map(int,input("Enter the marks out of 100 : ").split(","))
+# #process and result
+# if(marks - cutoff or marks is cutoff):
+# 	print("Pass")
+
+
+# # Soln 3:
+# #input
+# marks = int(input("Enter the marks out of 100 : "))
+# cutoff = int(input("Enter the cutoff : "))
+# #process and result
+# diff = marks - cutoff
+# if(~diff ):
+# 	print("Pass")
+
 
 '''
-#soln:
+#soln with condition operators:
 #input
 marks = int(input("Enter the marks out of 100 : "))
 cutoff = int(input("Enter the cutoff : "))
