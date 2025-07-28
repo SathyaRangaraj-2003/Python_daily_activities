@@ -1,0 +1,15 @@
+Google Opal: AI App Builder (Beta)
+
+Launched July 24, 2025, Opal is Google’s new no-code AI tool.
+It lets anyone build mini-apps using natural language and visual workflows.
+No coding needed—just drag, drop, and describe!
+Part of the vibe-coding trend making app creation fun and accessible.
+Available in U.S. beta via Google Labs.
+
+
+
+
+In Python, dictionaries were originally unordered collections. But starting from Python 3.7, the insertion order of keys is preserved. This means that when you iterate or print a dictionary, the elements will appear in the order they were added.
+
+"Tuples are like frozen lists—once made, they can't be changed!"
+"Want a fast container? Tuples are quicker than lists because they’re immutable."
