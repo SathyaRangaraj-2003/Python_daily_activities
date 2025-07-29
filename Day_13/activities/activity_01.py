@@ -13,17 +13,18 @@
 # if(marks - cutoff ):
 # 	print("Pass")
 
-#corrected one
+
+# #corrected one
 #input
 marks = int(input("Enter the marks out of 100 : "))
 cutoff = int(input("Enter the cutoff : "))
 #process and result
-diff = marks - cutoff
-if(diff + abs(diff))//2 is diff:
+diff = cutoff - marks 
+x = diff + abs(diff)
+if not x: 
 	print("Pass")
 
-
-
+	
 # #soln 1:
 # #input
 # marks = int(input("Enter the marks out of 100 : "))
@@ -48,6 +49,28 @@ if(diff + abs(diff))//2 is diff:
 # diff = marks - cutoff
 # if(~diff ):
 # 	print("Pass")
+
+
+# # Soln 4:
+# #input
+# marks = int(input("Enter the marks out of 100 : "))
+# cutoff = int(input("Enter the cutoff : "))
+# #process and result
+# diff = marks - cutoff
+# x = max(0,diff)
+# if x:
+# 	print("Pass")
+
+
+# # soln 5:
+# #input
+# marks = int(input("Enter the marks out of 100 : "))
+# cutoff = int(input("Enter the cutoff : "))
+# #process and result
+# diff = marks - cutoff
+# if(diff + abs(diff))//2 is diff: 
+# 	print("Pass")
+
 
 
 '''

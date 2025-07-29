@@ -1,0 +1,43 @@
+
+Transform your text into engaging videos effortlessly with Luma AI. Discover our innovative platform that turns written content into dynamic visual stories.
+
+
+Create realistic and imaginative videos from text instructions. Available now on iOS, and coming soon to Android.
+
+ Use Cases
+Media & entertainment
+Marketing & advertising
+Creative storytelling
+Worldbuilding for immersive experiences
+
+
+Luma AI was founded in 2021 by:
+
+Amit Jain – CEO and Co-Founder. He previously worked at Apple as a Systems and Machine Learning Engineer, contributing to features like Passthrough for Apple Vision Pro and LIDAR integration for iPhones 1.
+
+=>However, he is currently based in the San Francisco Bay Area, California, United States 
+
+Alberto Taiuti – Co-Founder (former).
+Alex Yu – Co-Founder (former) 
+
+
+
+Limited Video Length in Free Plan => short clips (typically around 5 seconds)
+
+
+the else keyword is not limited to use with if statements—it also has meaningful roles when used with loops (for and while) and exception handling(try...except).
+
+
+n = 0
+while n < 5:
+    print(n)
+    n += 1
+else:
+    print("While loop completed without break.")
+
+
+for/while:
+When the loop completes without break
+
+try/except:
+When no exception is raised in the try block

@@ -20,9 +20,10 @@ else:
 	print('Please study more')
 	
 
+# (1 dict , 1 if) => 25 grades =>1000 inputs
+
 #by using dictionary
 score = int(input("Enter the student score :"))
-
 message={
     'A' : "Excellent work!",
     'B' : "Good job!",
