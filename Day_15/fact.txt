@@ -1,0 +1,57 @@
+
+ AI age estimation system mistakenly identifies you as under 18, you’ll have three ways to verify your actual age:
+
+🔐 Age Verification Options:
+📄 Upload a Government ID
+
+You can submit a photo of an official ID (like a driver’s license or passport).
+YouTube will use secure systems to verify your age without storing sensitive data long-term.
+
+💳 Use a Credit Card
+
+A small transaction or verification charge may be used to confirm you're over 18.
+This method is quick and doesn’t require uploading documents.
+
+🤳 Take a Selfie
+
+YouTube may ask you to record a short video or take a selfie.
+AI will analyze facial features to estimate your age.
+This method is designed to be fast and privacy-conscious.
+
+These options will be offered only if the AI system flags your account incorrectly, and you’ll be notified with instructions on how to proceed.
+
+
+Impact on Creators:
+
+Reduced Teen Viewership => creators could see less traffic from younger audiences.
+
+Ad Revenue Decline
+
+Content Changes
+
+Creators may need to adjust their content to keep it accessible and engaging for verified users.
+
+
+
+
+
+
+The new syntax features arriving with Python 3.14 (expected October 2025)
+
+ Cleaner Exception Handling!
+
+ You can now handle multiple exceptions in a single except clause without parentheses!
+
+
+try:
+    ...
+except ValueError, TypeError:
+    ...
+
+old version:
+
+
+try:
+    ...
+except (ValueError, TypeError):
+    ...

@@ -10,3 +10,6 @@ if str1.upper() == str2.upper():
 	print("Match")
 else:
 	print("No match")
+
+
+#no else
