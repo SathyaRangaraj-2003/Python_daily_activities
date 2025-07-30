@@ -1,8 +1,8 @@
 #activity_14:
 
-value = bool(input("Enter the input: "))
+value = input("Enter the input: ")
 
-if bool(value):
-	print("Truthy")
-else:
+if value == "0" or value == "False":
 	print("Falsy")
+else:
+	print("Truthy")
