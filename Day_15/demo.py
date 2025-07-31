@@ -57,3 +57,6 @@
 #number between 100 
 # guess = ?
 # 49 max
+
+guess = int(input())
+

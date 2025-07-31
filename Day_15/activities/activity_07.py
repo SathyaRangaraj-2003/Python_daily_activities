@@ -18,4 +18,7 @@ for num in range(2,n+1):
 		if num % i == 0 :
 			break
 	else:
-		print(num)
+		print(num,end=" ")
+
+#any pythonic way
+			

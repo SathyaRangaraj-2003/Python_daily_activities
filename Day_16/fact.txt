@@ -1,0 +1,53 @@
+
+why the layoff?
+
+
+TCS is trying to prepare for the future by changing how it works. This includes:
+
+1. Using AI more
+They want to use artificial intelligence to improve their services and stay competitive.
+
+2. Expanding into new markets
+TCS is looking to grow in new areas and industries, which may need different skills than they currently have.
+
+3. Realigning the workforce
+
+This means they’re adjusting their teams to match the new direction of the company. Some roles may no longer be needed, while others are in high demand.
+
+4. Reskilling and redeployment
+
+They’re trying to train employees in new skills and move them to different roles. But this isn’t always possible for everyone.
+
+So why the layoffs?
+It’s not because AI is replacing people directly. Instead, it’s because:
+
+Some employees don’t have the skills needed for the new roles.
+In some cases, it’s not practical to retrain or move them to other positions.
+
+
+
+
+
+
+Forward References in Python: Then vs. Now
+
+When you wanted to use a class in a type hint before it was defined, you had to:
+
+Use quotes around the class name:
+
+
+class Node:
+    def __init__(self, next: 'Node' = None):
+        self.next = next
+
+Or, import a future feature to simplify this:
+
+from __future__ import annotations
+
+class Node:
+    def __init__(self, next: Node = None):
+        self.next = next
+
+In Python 3.14 and Later
+
+Now, Python automatically treats all type hints as strings behind the scenes. So you can write:
