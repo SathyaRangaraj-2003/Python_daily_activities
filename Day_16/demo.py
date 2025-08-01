@@ -66,7 +66,7 @@
 # print(add(3,4))
 
 
-# #position arguments =<assign left to right
+# #position arguments =>assign left to right
 # def d(n,d):
 #     return n/d
 # print(d(2,10))
@@ -102,6 +102,7 @@
 # 	return lst
 # v1=(ex_list(1))
 # v2=ex_list(2,[])
+# print(v1,v2)
 # v3=(ex_list(3))
 # v4=(ex_list(4))
 # print(f"{id(v1)},{v1},{id(v2)},{v2},{id(v3)},{v3},{id(v4)},{v4}")
