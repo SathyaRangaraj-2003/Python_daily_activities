@@ -1,0 +1,39 @@
+fundamentals:
+control flow:
+
+looping constructs:
+
+for loop: =>executes again again block of code =>condition
+
+for item in sequence:
+	print(item, end = '-')
+
+range() 
+
+iterate over dictionaries:
+default => keys
+for keys,values in dict_name.items():
+	print("vb")
+
+while loop: =>iteration 
+
+while condition:
+	#block of code
+
+#infinite loop example:
+while True:
+	print("This never ends!")
+
+sentinel - controlled while loop:
+ =>stop value ("exit" or -1)
+
+advanced looping constructs
+1) enumerate
+
+ for index,value in enumerate(iterable):
+	#print(index,value)
+2) zip
+
+nested loop:
+=>for matrix
+

@@ -1,0 +1,112 @@
+
+code organisation:
+
+searching and searching :
+
+=> searching checks whether a particular value exists in collection.
+
+=>linear search => one by one => slower on larger list
+=>binary search
+
+
+sorting :
+
+1)selection sort
+2)bubble sort => n-1 times
+3)insertion sort => for small runs =>it compare from 2nd point with 1st and move larger to last.
+4) merge sort =>divide and conquer (data larger)
+5) built-in sort => Timsort => merge sort and insertion 
+
+#is this possible faster than built-in .sort()/sorted()
+
+#bubble sort =>drawbacks
+
+sort,sorted
+
+key = len
+key = str.lower()
+
+
+functions in python
+
+=> block of code used again and again for specific task
+
+1)built-in function
+2)user-defined
+
+
+DocString '''  '''
+
+
+return statement =>fruitfull function => gives seeds o/p
+
+def square(x):
+	return x * x
+
+=> if return is used it return a first match,later lines are skipped
+
+=> by default , python function return None ,if there is no return.
+
+example:
+def square(x):
+	x * x
+print(square(5)) #none
+
+
+parameters and arguments:
+=>parameter  => in function definition add(x,y)
+=>arguments  => actual value you pass add(3,4)
+
+try 01:
+#formal parameter and actual parameter:
+
+#formal arguments and actual arguments
+
+
+
+1)  position arguments
+2) keyword arguments
+3) default arguments
+
+
+flexible function arguments
+
+1) *args => arbitrary positiona arguments
+2) **kwargs => arbitrary keyword arguments =>just a dictionary
+
+
+try 02:
+bubblesort =>drawbacks => how to rectify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

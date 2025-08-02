@@ -1,0 +1,75 @@
+
+Top - Down Execution:
+=>first condition that is true is executes 
+=>skips remaining elif,else block
+
+indentation:
+
+custom object : (find)
+
+
+logical operators:
+and 
+or 
+not =>flips Boolean
+
+truthy and falsy values:
+
+precedence
+order of operations : not - and - or 
+
+
+condition expression:
+
+ternary operator :
+
+value  if  condition  else  message
+
+
+pass in a condition : => placeholder
+
+any() => any one true
+all() => all should true
+=>For an empty list, all([]) returns True by definition. This is known as vacuous truth — since there are no elements that are false, it assumes all are true.
+
+
+
+
+advanced operators:
+
+1)walrus operator:
+
+2)ellipsis operator(...)
+
+3)bitwise operations
+
+AND(&)
+OR(|)
+Xor(^)
+not(~)
+leftshift(<<)
+rightshift(>>)
+
+4)identity operator:
+=> is operator => same object identity =>memory locations 
+=>is not operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

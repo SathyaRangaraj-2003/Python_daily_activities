@@ -1,0 +1,20 @@
+Go programming language
+
+python fundamentals :
+
+conditions: 
+
+=>Boolean
+  => logic & decision making
+  =>True = 1
+  =>False =0
+
+comparison operators : 
+ =>(str == int) is possible
+ => comparison between str and int will raise error
+  => '5' > 3 #error
+
+
+if 
+elif
+else

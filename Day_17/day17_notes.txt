@@ -1,0 +1,33 @@
+
+Day_15:
+
+#number between 100 
+# guess = ?
+# 49 max
+
+
+Day_16:
+
+try 01:
+#formal parameter and actual parameter:
+
+#formal arguments and actual arguments
+
+try 02:
+bubblesort =>drawbacks => how to rectify
+
+
+
+python namespace and variable scope resolution:
+
+types in python namespace
+
+1) local namespace =>in function 
+2) enclosed
+3) global 
+4) built-in 
+
+(LEGB)
+
+
+python generators : =>lazy evaluation
