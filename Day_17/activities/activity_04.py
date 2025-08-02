@@ -1,6 +1,6 @@
 #activity_04:
 
-
+#password checker
 def password_check(password):
 	letters = False
 	is_upper = False
@@ -27,8 +27,5 @@ def password_check(password):
 		return "Moderate"
 	else:
 		return "Strong"
-
- 
 password = input("Enter the password : ")
-
 print(password_check(password))

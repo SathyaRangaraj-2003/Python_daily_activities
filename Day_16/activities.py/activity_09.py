@@ -1,10 +1,9 @@
+#activity_09
 #return mean of any number of values
 #design average(*scores)
 
-#scores = (10,20,30,40)
-
 def average(*scores):
-    sum =0
+    sum = 0
     for item in scores:
         sum += item
     avg = sum /len(scores)
@@ -13,4 +12,5 @@ def average(*scores):
 
 print(average(10,20,30,40))
 
+#scores = (10,20,30,40)
 # print(average(*scores))

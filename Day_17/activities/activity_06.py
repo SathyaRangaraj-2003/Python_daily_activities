@@ -1,6 +1,6 @@
 #activity_06:
-#armstrong number
 
+#armstrong number
 num = int(input("Enter the number: "))
 len_num = len(str(num))
 

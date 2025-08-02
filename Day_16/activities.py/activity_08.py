@@ -1,5 +1,6 @@
-#function that can be used instead of sum()
+
 #activity_08:
+#function that can be used instead of sum()
 
 a = (1,2,3,4,5)
 

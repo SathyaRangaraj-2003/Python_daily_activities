@@ -1,3 +1,5 @@
+#activity_10:
+
 #redesign f(x, lst=??)so:
 # each call gives fresh list
 

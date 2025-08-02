@@ -1,6 +1,6 @@
 #activity_05:
-#first prime greater than n
 
+#first prime greater than n
 import math
 num = int(input("Enter the number :"))
 
