@@ -10,7 +10,7 @@ for num in range(2,n+1):
 			break
 	if is_prime:
 		print(num)
-		
+	
 #soln2
 n = int(input())
 for num in range(2,n+1):
@@ -18,7 +18,7 @@ for num in range(2,n+1):
 		if num % i == 0 :
 			break
 	else:
-		print(num,end=" ")
+		print(num)
 
 #any pythonic way
 			
