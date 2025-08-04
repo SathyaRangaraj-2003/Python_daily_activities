@@ -7,7 +7,7 @@ Must be alphanumeric (letters and numbers)
 Must include both uppercase and lowercase letters'''
 
 
-#acitivity_03:
+#practical_03:
 
 user_name = input("Enter the user name: ")
 first_name = input("Enter the first_name: ")

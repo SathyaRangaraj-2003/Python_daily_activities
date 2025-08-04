@@ -3,14 +3,12 @@
 #design average(*scores)
 
 def average(*scores):
-    sum = 0
-    for item in scores:
-        sum += item
-    avg = sum /len(scores)
+    avg = sum(scores) /len(scores)
     return avg
 
 
-print(average(10,20,30,40))
+print(average(10,20,30,40)) 
+#if no score 
 
 #scores = (10,20,30,40)
 # print(average(*scores))

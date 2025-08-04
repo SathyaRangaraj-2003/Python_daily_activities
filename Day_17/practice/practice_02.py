@@ -8,7 +8,13 @@ Must use a for loop to print 'hello' repeatedly.
  '''
 #activity_02:
 
-_ = input("Enter the string:")
 
+# soln 1:
+for _ in input("Enter the string:"):
+	print("hello")
+
+
+#soln 2:
+_ = input("Enter the string:")
 for _ in _:
 	print("hello")
