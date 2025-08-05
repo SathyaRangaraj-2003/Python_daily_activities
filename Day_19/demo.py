@@ -38,11 +38,9 @@
 # dt = datetime(2025, 12, 25, 17, 30)
 # print(dt)
 
-file = open('day19.txt', 'r')
-content = file.read()
-print(content)
-
-
+# file = open('day19.txt', 'r')
+# content = file.read()
+# print(content)
 
 
 
@@ -87,3 +85,6 @@ print(content)
 
 # d={list(map(lambda  : sum(stud["scores"])/len(stud["scores"]) for stud in students))}
 # print(list(sum(stud["scores"])/len(stud["scores"]) for stud in students))
+
+
+

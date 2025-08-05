@@ -1,8 +1,10 @@
 #activity_01:
 
-from math import pi,floor
-radius = int(input("Enter the circle radius: "))
-
-print("Diameter:", 2 * radius)
-print("Circumference:", floor(2 * pi * radius))
-print("Area:", floor(pi * (radius **2)))
+import random
+def flip_biased_coin():
+	if random.random() <= 0.7:
+		print("Heads")
+	else:
+		print("Tails")
+		
+flip_biased_coin()
