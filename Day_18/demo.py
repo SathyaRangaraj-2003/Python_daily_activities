@@ -14,11 +14,11 @@
 # square = lambda x : x ** 2
 # print(square(5))
 
-N = int(input())
-def square(n):
-    s = lambda x:x**2
-    return s(N)
-print(square(N))
+# N = int(input())
+# def square(n):
+#     s = lambda x:x**2
+#     return s(N)
+# print(square(N))
 
 # f = lambda x : return  x*2
 # print(f(3)) #error
@@ -177,3 +177,30 @@ print(square(N))
 
 #  You have a list of students, each with a list of scores. Create a dictionary mapping the names of students who have an average score of 90 or higher to their average score.
 # Concepts: nested list, list of dict, filter, map, lambda, dictionary comprehension.
+
+# x = int(input())
+# y = int(input())
+
+# x = x / y
+# print( y/ x)
+
+# x = 1
+# x = x == x
+# print(x) #True
+
+# def function(x=0):
+#     return x
+
+# print(function())
+
+tup = (1, 2, 4, 8)
+tup = tup[1:-1]
+tup = tup[0]
+print(tup)
+
+
+
+
+
+print(2/0)
+

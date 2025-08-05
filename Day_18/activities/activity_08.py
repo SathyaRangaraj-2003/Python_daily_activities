@@ -2,5 +2,5 @@
 
 fruits = ['apple', 'banana', 'cherry']
 
-dict = {(k,len(k)) for k in fruits}
+dict = {k:len(k) for k in fruits}
 print(dict)
