@@ -2,13 +2,10 @@
 
 log_lines = (f"Line {i}" if i != 99999 else "ERROR: Something failed" for i in range(10**6))
 
-print(next(log_lines))
 
-
-for i, line in enumerate(log_lines, start=1):
-    if i == 100000:
-        print(f"line:{i} -> {line.lower()}")
+for line_number, line in enumerate(log_lines, start=1):
+    if "ERROR" in line:
+        print(f"LINE:{line_number} -> {line}")
         break
 
 
-# actual o/p : line:100000 -> error:Something failed

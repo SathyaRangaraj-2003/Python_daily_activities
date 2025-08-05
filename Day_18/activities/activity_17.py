@@ -1,5 +1,8 @@
 #activity_17:
 
-num = int(input("Enter the number: "))
-res = lambda x : x if x%2==0 else raise ValueError("Number is Odd")
-print(res(num))
+try:
+	num = int(input("Enter the number: "))
+	res = lambda x : x if x%2==0 else x.throw(ValueError)
+	print("Even Number:",res(num))
+except:
+	print("Odd Number")
