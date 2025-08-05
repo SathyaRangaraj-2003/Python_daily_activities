@@ -178,6 +178,8 @@
 #  You have a list of students, each with a list of scores. Create a dictionary mapping the names of students who have an average score of 90 or higher to their average score.
 # Concepts: nested list, list of dict, filter, map, lambda, dictionary comprehension.
 
+lst = [["Alice",50], ["Bob",]]
+
 # x = int(input())
 # y = int(input())
 
@@ -193,14 +195,10 @@
 
 # print(function())
 
-tup = (1, 2, 4, 8)
-tup = tup[1:-1]
-tup = tup[0]
-print(tup)
+# tup = (1, 2, 4, 8)
+# tup = tup[1:-1]
+# tup = tup[0]
+# print(tup)
 
-
-
-
-
-print(2/0)
+# print(2/0)
 

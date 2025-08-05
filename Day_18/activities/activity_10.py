@@ -2,9 +2,15 @@
 
 data = {'a': 1, 'b': 2, 'c': 1}
 
-dict = {}
-for k,v in data.items():
-	dict.setdefault(v,[]).append(k)
+result = {v: tuple(k for k in data if data[k] == v) for v in set(data.values())}
 
-res = {k:tuple(v) for k,v in dict.items()}
-print(res)
+print(result)
+ 
+
+# soln 2:
+data = {'a': 1, 'b': 2, 'c': 1}
+
+result = {v: tuple(k for k in data if data[k] == v) for v in data.values()}
+
+print(result)
+ 

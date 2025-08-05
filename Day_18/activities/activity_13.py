@@ -6,3 +6,9 @@ val = (None, '', 0, [], False)
 
 s = {x for item in data for x in item if x not in val }
 print(list(s))
+
+
+# soln 2:
+s = [x for item in data for x in item if x  ]
+res = list(dict.fromkeys(s))
+print(res)
