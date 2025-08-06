@@ -9,4 +9,4 @@ Data Science and Machine Learning (with libraries like Pandas, NumPy, Scikit-lea
 Automation and Scripting
 Software Development
 Game Development
-System Scripting
+System ScriptingC:\Users\Sathya.2.Rangaraj\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Sathya.2.Rangaraj/Documents/GitHub/Python_daily_activities/Day_20/demo.py

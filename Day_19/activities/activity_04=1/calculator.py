@@ -1,6 +1,4 @@
 #activity_06
-
-
 #calculator.py
 
 import mymath

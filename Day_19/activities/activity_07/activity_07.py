@@ -1,7 +1,7 @@
 #activity_07:
 
+line_count = 0
 with open("story.txt",'r') as file:
-    line_count = 0
     for i in file:
         line_count += 1
 
