@@ -28,7 +28,6 @@
 
 
 
-
 # import zipfile
 
 # with zipfile.ZipFile('archieve.zip','r',compression=zipfile.ZIP_DEFLATED) as zf:
@@ -39,4 +38,4 @@ import zipfile
 with zipfile.ZipFile('demo.zip','r') as zf:
     print(zf.namelist() )
     file_extract = input("Enter the file to extract : ")
-    zf.extract('file_01.txt')
+    zf.extract(file_extract)
