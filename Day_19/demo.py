@@ -45,20 +45,18 @@
 
 
 
-
-
-
-
 #  You have a list of students, each with a list of scores. Create a dictionary mapping the names of students who have an average score of 90 or higher to their average score.
 # Concepts: nested list, list of dict, filter, map, lambda, dictionary comprehension.
 
-# students = [ {"name": "Brenda", "scores": [90, 92, 95, 88]}, {"name": "David", "scores": [85, 87, 89]}, {"name": "Cathy", "scores": [98, 99, 100]}, {"name": "Alex", "scores": [70, 100]} ]
+# soln 1:
 
-# avg_score = list(map(lambda  stud : (stud["name"], sum(stud["scores"])/len(stud["scores"])) ,students ))
+students = [ {"name": "Brenda", "scores": [90, 92, 95, 88]}, {"name": "David", "scores": [85, 87, 89]}, {"name": "Cathy", "scores": [98, 99, 100]}, {"name": "Alex", "scores": [70, 100]} ]
 
-# print(avg_score)
+avg_score = list(map(lambda  stud : (stud["name"], sum(stud["scores"])/len(stud["scores"])) ,students ))
 
-# print({name: round(score, 2)  for name, score in avg_score if score >= 90})
+print(avg_score)
+
+print({name: round(score, 2)  for name, score in avg_score if score >= 90})
 
 
 # def avg_score(scores):

@@ -1,0 +1,1 @@
+C:\Users\Sathya.2.Rangaraj\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Sathya.2.Rangaraj/OneDrive - Coforge Limited/Documents/GitHub/Python_daily_activities/Day_20/activities/activity_04.py"

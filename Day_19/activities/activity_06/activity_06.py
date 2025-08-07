@@ -1,12 +1,20 @@
-#activity_04:
-#greeter.py
 
-def personal_greet(name):
-    print(f"Hello {name}")
+#activity_06
 
-if __name__ == "__main__":
-    user_name = input("Enter your name:")
-    personal_greet(user_name)
+from greeter import personal_greet
+name=input("Enter the your name:")
+print(personal_greet(name))
+
+
+ #activity_04:
+# #greeter.py
+
+# def personal_greet(name):
+#     print(f"Hello {name}")
+
+# if __name__ == "__main__":
+#     user_name = input("Enter your name:")
+#     personal_greet(user_name)
 
 
 # This checks if the script is being run directly (not imported as a module). =>if __name__ == "__main__":

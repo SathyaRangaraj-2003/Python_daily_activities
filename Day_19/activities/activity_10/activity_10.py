@@ -1,7 +1,8 @@
-#activity_10
+#activity_09:
 
-with open("original.txt", "r") as in_file:
-    lines = in_file.readlines()
-reversed_lines = reversed(lines)  
-with open("reversed.txt", "w") as out_file:
-    out_file.writelines(reversed_lines)
+quote = "Don't be afraid to fail"
+
+with open('quote.txt','a') as file:
+	file.write(quote + "\n")
+	
+print(open('quote.txt').read())

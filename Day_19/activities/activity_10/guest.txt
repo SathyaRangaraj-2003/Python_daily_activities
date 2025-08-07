@@ -1,1 +1,0 @@
-C:\Users\Sathya.2.Rangaraj\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Sathya.2.Rangaraj/Documents/GitHub/Python_daily_activities/Day_19/activities/activity_11/activity_11.py

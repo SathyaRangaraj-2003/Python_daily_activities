@@ -1,10 +1,13 @@
+#activity_07:
 
-#activity_08:
+line_count = 0
+with open("story.txt",'r') as file:
+    for i in file:
+        line_count += 1
+
+print("Number of lines in text file : ",line_count)
 
 
-quote = "Don't be afraid to fail"
 
-with open('quote.txt','w') as file:
-	file.write(quote)
-	
-print(open('quote.txt').read())
+
+#Using .read() or .readlines() will load entire file to memory
