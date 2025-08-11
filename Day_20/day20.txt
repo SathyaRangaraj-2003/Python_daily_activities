@@ -1,0 +1,17 @@
+file manipulation cont.
+
+binary files
+
+ex: jpg, png  , mp3 (audio files) ,.mp4(video)
+
+
+zip => archieve 
+
+json
+
+import json 
+read => load
+write => dump
+
+
+find duplicate file in repo:

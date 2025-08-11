@@ -25,7 +25,7 @@ print(f"{user=}, {score=}, {score/100 = :.2%}")
 import numpy as np
 
 a = np.array([1,2,3,4])
-print(a.mean())'''
+print(a.mean())   '''
 
 import pandas as pd
 help(pd)

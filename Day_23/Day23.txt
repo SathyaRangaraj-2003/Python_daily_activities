@@ -1,0 +1,7 @@
+Day23
+
+Object oriented programming:
+
+object 
+Attribute =>variable that store data for object
+methods  => function ,default method

@@ -1,0 +1,61 @@
+python fundamentals
+
+=>from set ,if u pop it will be random
+
+python shortcuts and error handling
+
+lambda function: => small anonymous function
+=>return type object
+
+syntax:
+	lambda arguments :expression
+
+type(lambda x:x) => function 
+
+print(check(n))
+return check(n)
+
+map()
+filter()
+reduce()
+
+list comprehensions:
+
+=>to create new sequences from existing iterables.
+
+[expr for item in iterable if condition ]
+
+
+if else :
+[expr if condition else false_condition for item in iterable ]
+
+
+=> syntax is correct without if condition
+
+dictionary comprehension:
+{key : value for item in iterable}
+
+
+set comprehension: =>unique elemnets
+
+{key : value for item in iterable}
+
+
+generator comprehension
+
+
+exceptional handling:
+
+try:
+except:
+
+raise exception
+throw() function
+generator.throw(exception)
+
+  You have a list of students, each with a list of scores. Create a dictionary mapping the names of students who have an average score of 90 or higher to their average score.
+ Concepts: nested list, list of dict, filter, map, lambda, dictionary comprehension.
+
+
+
+

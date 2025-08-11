@@ -1,0 +1,89 @@
+python modules:
+
+=> writing a sorting algorithms is faster or bulit -in is faster
+=>why dictionary is faster than list
+=> why numpy array is faster than list
+
+csv files => comma separated value
+
+csv to json:
+
+{ "name" : ["Alice" , "Bob"] , "Age" : [30 , 25] , "City" : ["New York" , "Bob"
+] }
+
+synthetic data generation:
+
+example:
+
+35/100
+ 
+10*2 =20
+ 
+5*13 = ?
+ 
+1 * 15 = 15
+
+0 + 2 + 1 + 0 + 1 + 0 + 0 + 2 + 0 + 0 + 10 + 5 + 0 + 2 + 2  + 10 = 35
+
+
+2 - mark splitup =>0,1,2
+13 - mark splitup => 0,2,4,8,12,13
+15 - mark splitup=> 0,2,4,8,12,15
+
+I/p => input.csv
+
+read the data and write
+
+
+o/p => output.csv
+
+
+
+delimeters
+
+dialext
+ 
+string formatting
+
+
+Numpy
+
+=>always import numpy before pandas
+
+
+select name,mobileno,address 
+from table 
+where diabetes == "yes" or (diabetes == "yes" and bp == "yes")
+or (sugar == "yes" and bp == "yes")
+
+
+
+pandas:=> supporting module
+labelled rows and columns are created using pandas
+
+=>>series(column of table)
+
+=>>dataframe (table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
