@@ -54,6 +54,9 @@ df_json['month'] = df_json['month'].str.capitalize()
 df_json = df_json.groupby('month',as_index = False).first()
 #print(df_json)
 
+#cleaning
+df_csv.columns = df_csv.columns.str.lower().str.replace(' ','_')
+#df_csv
 
 #TASK 2 : DATA MERGING
 #concatenation:
@@ -70,16 +73,45 @@ new_data['year'] = ["2023" if idx < len(df_csv)  else "2024" for idx in range(le
 
 #month consistency:
 
-#print(df_csv.columns)
-#print(df_json.columns)
+df_json = new_data[new_data.month.isin(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'])]
+print(df_json)
 
 
-print(new_data.iloc[:,2:5])
+#sorting
+
+#chronologically by month
+month_order = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+new_data['month'] = pd.Categorical(new_data['month'],categories = month_order , ordered = True)
+new_data.sort_values(['year','month'],inplace=True)
+new_data
+
+
+#TASK 3 : Data Analysis
+#performance metrics
+
+new_data['pct_diff_target'] = ((new_data['passengers_carried'] - new_data['target_passengers']) / new_data['target_passengers']) * 100
+new_data
+
+
+#Target Non-Achievement:
+
+not_achieved = new_data[new_data['pct_diff_target'] < 0 ]
+not_achieved[['month','year','pct_diff_target']]
+
+
+#Annual Summaries:
+
+total_passenger = new_data.groupby('year')['passengers_carried'].sum().astype(int)
+total_passenger
+
+total_flights = new_data.groupby('year').flights_operated.sum().astype(int)
+total_flights
+
+average = new_data.groupby('month',observed=True)['pct_diff_target'].mean()
+average
 
 
 
-
-'''
 
 
 

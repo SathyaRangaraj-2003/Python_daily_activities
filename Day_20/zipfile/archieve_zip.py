@@ -33,7 +33,7 @@
 # with zipfile.ZipFile('archieve.zip','r',compression=zipfile.ZIP_DEFLATED) as zf:
 #     zf.extractall('archieve_zip')
 
-import zipfile
+import zipfile 
 
 with zipfile.ZipFile('demo.zip','r') as zf:
     print(zf.namelist() )

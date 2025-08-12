@@ -180,6 +180,12 @@
 
 lst = [["Alice",50], ["Bob",]]
 
+students = [ {"name": "Brenda", "scores": [90, 92, 95, 88]}, {"name": "David", "scores": [85, 87, 89]}, {"name": "Cathy", "scores": [98, 99, 100]}, {"name": "Alex", "scores": [70, 100]} ]
+
+avg_score = list(map(lambda  stud : (stud["name"], sum(stud["scores"])/len(stud["scores"])) ,students ))
+
+print({name: round(score, 2)  for name, score in avg_score if score >= 90})
+
 # x = int(input())
 # y = int(input())
 
