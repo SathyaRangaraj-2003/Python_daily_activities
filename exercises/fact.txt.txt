@@ -1,0 +1,47 @@
+NASA and Google have teamed up to develop an AI-powered medical assistant called the Crew Medical Officer Digital Assistant (CMO-DA), designed to support astronauts during deep-space missions where real-time communication with Earth is limited
+
+
+This AI assistant uses natural language processing, machine learning, and multi-modal inputs (speech, text, images) to help diagnose and treat medical issues autonomously. It’s hosted on Google Cloud’s Vertex AI and trained on spaceflight medical literature. In early trials, CMO-DA achieved diagnostic accuracy rates of up to 88% for conditions like ankle injuries and ear pain 2 3.
+
+Beyond space, this technology could revolutionize healthcare in remote or underserved regions on Earth by providing reliable medical support where doctors aren't readily available.
+
+
+
+
+
+Python libraries like Qiskit and Cirq are essential tools for quantum computing,
+
+Qiskit is a Python-based framework for working with IBM Quantum computers.
+
+Cirq is designed for Google’s quantum processors and focuses on quantum algorithm development.
+
+Gate-level Control: Fine-tuned control over quantum gates and operations.
+Quantum Error Correction: Tools to simulate and test fault-tolerant circuits.
+Integration with TensorFlow Quantum: Combines classical ML with quantum computing.
+
+Python + quantum = new possibilities in AI:
+
+
+
+Forward References in Python: Then vs. Now
+
+When you wanted to use a class in a type hint before it was defined, you had to:
+
+Use quotes around the class name:
+
+
+class Node:
+    def __init__(self, next: 'Node' = None):
+        self.next = next
+
+Or, import a future feature to simplify this:
+
+from __future__ import annotations
+
+class Node:
+    def __init__(self, next: Node = None):
+        self.next = next
+
+In Python 3.14 and Later
+
+Now, Python automatically treats all type hints as strings behind the scenes. So you can write:

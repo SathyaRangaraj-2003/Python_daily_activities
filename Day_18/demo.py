@@ -178,13 +178,13 @@
 #  You have a list of students, each with a list of scores. Create a dictionary mapping the names of students who have an average score of 90 or higher to their average score.
 # Concepts: nested list, list of dict, filter, map, lambda, dictionary comprehension.
 
-lst = [["Alice",50], ["Bob",]]
+# lst = [["Alice",50], ["Bob",]]
 
-students = [ {"name": "Brenda", "scores": [90, 92, 95, 88]}, {"name": "David", "scores": [85, 87, 89]}, {"name": "Cathy", "scores": [98, 99, 100]}, {"name": "Alex", "scores": [70, 100]} ]
+# students = [ {"name": "Brenda", "scores": [90, 92, 95, 88]}, {"name": "David", "scores": [85, 87, 89]}, {"name": "Cathy", "scores": [98, 99, 100]}, {"name": "Alex", "scores": [70, 100]} ]
 
-avg_score = list(map(lambda  stud : (stud["name"], sum(stud["scores"])/len(stud["scores"])) ,students ))
+# avg_score = list(map(lambda  stud : (stud["name"], sum(stud["scores"])/len(stud["scores"])) ,students ))
 
-print({name: round(score, 2)  for name, score in avg_score if score >= 90})
+# print({name: round(score, 2)  for name, score in avg_score if score >= 90})
 
 # x = int(input())
 # y = int(input())

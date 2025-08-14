@@ -99,19 +99,49 @@ not_achieved = new_data[new_data['pct_diff_target'] < 0 ]
 not_achieved[['month','year','pct_diff_target']]
 
 
+
 #Annual Summaries:
 
-total_passenger = new_data.groupby('year')['passengers_carried'].sum().astype(int)
+total_passenger = new_data.groupby('year',as_index = False)['passengers_carried'].sum().astype(int)
 total_passenger
 
-total_flights = new_data.groupby('year').flights_operated.sum().astype(int)
+total_flights = new_data.groupby('year',as_index = False).flights_operated.sum().astype(int)
 total_flights
 
-average = new_data.groupby('month',observed=True)['pct_diff_target'].mean()
+average = new_data.groupby('year',as_index = False)['pct_diff_target'].mean()
 average
 
+annual_summary = pd.concat([total_passenger , total_flights.iloc[:,1] , average.iloc[:,1]]  ,ignore_index=False, axis = 1 )
+annual_summary
 
 
+#Extreme Performance
+
+best = new_data[new_data['pct_diff_target'] == new_data['pct_diff_target'].max()][['month','year']]
+worst = new_data[new_data['pct_diff_target'] == new_data['pct_diff_target'].min()][['month','year']]
+print(best ,"--> Best Performance")
+print(worst ,"--> Worst Performance")
+
+
+
+#TASK 4 : Data output and zipping
+#output files
+
+
+out1 = new_data.to_csv('combined_airline_data.csv',index=False)
+
+out2 = target_not_achieved.to_csv('target_not_achieved.csv' ,  index = False)
+
+out3 = annual_summary.to_json('yearly_summary.json' , index = False)
+
+
+#archieving
+import zipfile
+
+with zipfile.ZipFile('airline_analysis_outputs.zip' , 'w' ) as f:
+  f.write('combined_airline_data.csv')
+  f.write('target_not_achieved.csv')
+  f.write('yearly_summary.json')
 
 
 
