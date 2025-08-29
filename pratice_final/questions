@@ -1,0 +1,47 @@
+How do you reverse a string in Python without using slicing?
+Write a program to check if a string is a palindrome.
+How do you remove duplicate characters from a string while maintaining order?
+Write a program to find the first non-repeating character in a string.
+How do you count the occurrence of each character in a string?
+Convert a given string into title case without using .title().
+Write a Python function to check if two strings are anagrams of each other.
+Find the longest common prefix among a list of strings.
+How do you remove all vowels from a string?
+Write a program to find the length of the longest substring without repeating characters.
+Replace all spaces in a string with - without using .replace().
+Write code to check if a string contains only digits without using .isdigit().
+Count how many words are present in a string without using .split().
+Write a function to find the most frequent character in a string.
+How do you swap the case of all characters in a string without using .swapcase()?
+Given a string with parentheses, check if the parentheses are balanced.
+Reverse the order of words in a sentence while maintaining their characters.
+Remove all special characters from a string except spaces.
+Find the longest palindromic substring inside a given string.
+Write a Python function to compress a string using counts of repeated characters.
+*(Example: "aaabbc" → "a3b2c1")
+Reverse a list in place without using .reverse() or slicing.
+Merge two sorted lists into a single sorted list without using built-in sort.
+Find the second largest element in a list without using max() twice.
+Remove duplicates from a list without using set().
+Rotate a list k steps to the right without using extra space.
+Find the intersection and difference between two lists.
+Write a program to flatten a nested list without recursion.
+Convert a list of tuples into a dictionary and vice versa.
+Given a list, find all pairs whose sum equals a given target.
+Find the longest increasing subsequence in a list.
+Write a program to find common elements in three lists using sets.
+Given two sets, find the symmetric difference without using .symmetric_difference().
+Check whether a list contains any duplicate elements using sets.
+Find all unique elements in a list of lists using set operations.
+Count the frequency of words in a paragraph using a dictionary.
+Merge two dictionaries and sum values for common keys.
+Given a dictionary of student scores, find the top three students.
+Group a list of words by their starting letter using a dictionary.
+Convert a nested dictionary into a flattened dictionary with dot-separated keys.
+(Example: {'a': {'b': 1}} → {'a.b': 1})
+Write a program to invert a dictionary so that keys become values and values become keys.
+Implement a stack using a Python list with push(), pop(), and peek() operations.
+Implement a queue using collections.deque.
+Check for balanced brackets using a stack.
+Design a min-stack that returns the minimum element in O(1) time.
+Implement a circular queue using a fixed-size list.
