@@ -99,6 +99,7 @@
 # print(dict_name.get(2))
 # print(dict_name.keys())
 # print(dict_name.values())
+# print(dict_name.items())
 
 # #duplicate keys =>override with
 # d={

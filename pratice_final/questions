@@ -30,6 +30,9 @@ Convert a list of tuples into a dictionary and vice versa.
 Given a list, find all pairs whose sum equals a given target.
 Find the longest increasing subsequence in a list.
 Write a program to find common elements in three lists using sets.
+
+
+
 Given two sets, find the symmetric difference without using .symmetric_difference().
 Check whether a list contains any duplicate elements using sets.
 Find all unique elements in a list of lists using set operations.
@@ -45,3 +48,7 @@ Implement a queue using collections.deque.
 Check for balanced brackets using a stack.
 Design a min-stack that returns the minimum element in O(1) time.
 Implement a circular queue using a fixed-size list.
+
+
+
+
